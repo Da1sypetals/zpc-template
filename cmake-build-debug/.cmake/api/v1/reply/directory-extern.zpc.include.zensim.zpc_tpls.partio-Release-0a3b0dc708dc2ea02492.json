@@ -1,0 +1,64 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"extern/zpc/include/zensim/zpc_tpls/partio/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 132,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 135,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"extern/zpc/include/zensim/zpc_tpls/partio/libzspartio.a"
+			],
+			"targetId" : "zspartio::@259187227442f8869fc0",
+			"targetIndex" : 19,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"extern/zpc/include/zensim/zpc_tpls/partio/Partio.h",
+				"extern/zpc/include/zensim/zpc_tpls/partio/PartioAttribute.h",
+				"extern/zpc/include/zensim/zpc_tpls/partio/PartioIterator.h",
+				"extern/zpc/include/zensim/zpc_tpls/partio/PartioVec3.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extern/zpc/include/zensim/zpc_tpls/partio",
+		"source" : "extern/zpc/include/zensim/zpc_tpls/partio"
+	}
+}

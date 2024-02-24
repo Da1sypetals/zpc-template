@@ -1,0 +1,1 @@
+### Minimal ZPC template with no need of external configurations.

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libzpcomp.a CMakeFiles/zpcomp.dir/omp/math/matrix/MatrixTransform.cpp.o
+/usr/bin/ranlib libzpcomp.a

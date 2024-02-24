@@ -1,0 +1,66 @@
+/home/jingguo/.cache/JetBrains/RemoteDev/dist/69f6ce9329a28_CLion-233.11799.171/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/jingguo/.cache/JetBrains/RemoteDev/dist/69f6ce9329a28_CLion-233.11799.171/bin/ninja/linux/x64/ninja -G Ninja -S /home/jingguo/Desktop/dev/zpc_test -B /home/jingguo/Desktop/dev/zpc_test/cmake-build-debug
+===============================================================
+-- ccache found and enabled
+-- deduced cuda arch: 89
+CMake Warning at extern/zpc/include/zensim/zpc_tpls/CMakeLists.txt:219 (message):
+  SYCL enabled but ComputeCpp_DIR and COMPUTECPP_BITCODE not all set!
+
+
+CMake Warning at extern/zpc/include/zensim/zpc_tpls/CMakeLists.txt:377 (find_package):
+  By not providing "FindOpenVDB.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "OpenVDB", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "OpenVDB" with any
+  of the following names:
+
+    OpenVDBConfig.cmake
+    openvdb-config.cmake
+
+  Add the installation prefix of "OpenVDB" to CMAKE_PREFIX_PATH or set
+  "OpenVDB_DIR" to a directory containing one of the above files.  If
+  "OpenVDB" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+-- cuda-compiler /opt/cuda/bin/nvcc
+[AssetDirPath] set to: [/home/jingguo/Desktop/dev/zpc_test/cmake-build-debug/extern/zpc]
+[RESOURCE_AT_RELATIVE_PATH] set to: 0
+-- python3 libraries for zpc_jit_py: /usr/lib/libpython3.11.so
+-- python3 include directories for zpc_jit_py: /usr/include/python3.11
+cmake configure summary
+project name: zensim
+package version: 0.0.0
+build options: pthreads: OFF, sycl: OFF, sycl(dpcpp): OFF, sycl(computecpp): OFF, cuda: ON(12.3.52), omp: ON, cl: OFF, jit(llvm): OFF, openvdb OFF, opengl OFF, partio ON, mshio OFF
+-- Standard libraries to link to explicitly: none
+-- The Fortran compiler identification is unknown
+-- Found unsuitable Qt version "5.15.11" from /usr/bin/qmake
+-- Qt4 not found, so disabling the mandelbrot and opengl demos
+-- Could NOT find CLANG_FORMAT: Found unsuitable version "16.0.6", but required is exact version "9" (found /usr/bin/clang-format)
+-- 
+-- Configured Eigen 3.4.90
+-- 
+-- Creating target: igl::core (igl_core)
+-- Forcing include of libigl module: glfw
+-- Creating target: igl::glfw (igl_glfw)
+-- Third-party: creating target 'glfw::glfw'
+-- Using X11 for window creation
+-- Forcing include of libigl module: opengl
+-- Creating target: igl::opengl (igl_opengl)
+-- Third-party: creating target 'glad::glad'
+CMake Deprecation Warning at cmake-build-debug/_deps/glad-src/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Forcing include of libigl module: imgui
+-- Creating target: igl::imgui (igl_imgui)
+-- Third-party: creating target 'imgui::imgui'
+-- Third-party: creating target 'imguizmo::imguizmo'
+-- Third-party: creating target 'igl::imgui_fonts'
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jingguo/Desktop/dev/zpc_test/cmake-build-debug

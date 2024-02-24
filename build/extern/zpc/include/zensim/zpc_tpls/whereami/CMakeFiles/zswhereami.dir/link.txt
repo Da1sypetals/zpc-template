@@ -1,0 +1,2 @@
+/usr/bin/ar qc libzswhereami.a CMakeFiles/zswhereami.dir/whereami.c.o
+/usr/bin/ranlib libzswhereami.a

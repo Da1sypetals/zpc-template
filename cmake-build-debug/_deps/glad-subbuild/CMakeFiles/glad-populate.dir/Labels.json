@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jingguo/Desktop/dev/zpc_test/cmake-build-debug/_deps/glad-subbuild/CMakeFiles/glad-populate"
+		},
+		{
+			"file" : "/home/jingguo/Desktop/dev/zpc_test/cmake-build-debug/_deps/glad-subbuild/CMakeFiles/glad-populate.rule"
+		},
+		{
+			"file" : "/home/jingguo/Desktop/dev/zpc_test/cmake-build-debug/_deps/glad-subbuild/CMakeFiles/glad-populate-complete.rule"
+		},
+		{
+			"file" : "/home/jingguo/Desktop/dev/zpc_test/cmake-build-debug/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-build.rule"
+		},
+		{
+			"file" : "/home/jingguo/Desktop/dev/zpc_test/cmake-build-debug/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-configure.rule"
+		},
+		{
+			"file" : "/home/jingguo/Desktop/dev/zpc_test/cmake-build-debug/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-download.rule"
+		},
+		{
+			"file" : "/home/jingguo/Desktop/dev/zpc_test/cmake-build-debug/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-install.rule"
+		},
+		{
+			"file" : "/home/jingguo/Desktop/dev/zpc_test/cmake-build-debug/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/jingguo/Desktop/dev/zpc_test/cmake-build-debug/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-patch.rule"
+		},
+		{
+			"file" : "/home/jingguo/Desktop/dev/zpc_test/cmake-build-debug/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-test.rule"
+		},
+		{
+			"file" : "/home/jingguo/Desktop/dev/zpc_test/cmake-build-debug/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glad-populate"
+		],
+		"name" : "glad-populate"
+	}
+}
