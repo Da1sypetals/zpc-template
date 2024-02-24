@@ -1,3 +1,0 @@
-/usr/bin/ar qc libzpccuda.a CMakeFiles/zpccuda.dir/cuda/Cuda.cu.o CMakeFiles/zpccuda.dir/cuda/profile/CudaTimers.cu.o CMakeFiles/zpccuda.dir/cuda/memory/MemOps.cpp.o CMakeFiles/zpccuda.dir/cuda/memory/Allocator.cpp.o CMakeFiles/zpccuda.dir/cuda/simulation/wrangler/Wrangler.cpp.o
-/usr/bin/ar q libzpccuda.a CMakeFiles/zpccuda.dir/cmake_device_link.o
-/usr/bin/ranlib libzpccuda.a

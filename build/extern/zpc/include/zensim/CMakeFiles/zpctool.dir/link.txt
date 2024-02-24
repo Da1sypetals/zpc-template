@@ -1,2 +1,0 @@
-/usr/bin/ar qc libzpctool.a CMakeFiles/zpctool.dir/io/ParticleIO.cpp.o CMakeFiles/zpctool.dir/geometry/SparseGrid_Conversion.cpp.o CMakeFiles/zpctool.dir/geometry/AdaptiveGrid_Conversion.cpp.o CMakeFiles/zpctool.dir/geometry/VdbLevelSet_Point.cpp.o CMakeFiles/zpctool.dir/geometry/VdbLevelSet_LoadPhi.cpp.o CMakeFiles/zpctool.dir/geometry/VdbLevelSet_LoadPhiVel.cpp.o CMakeFiles/zpctool.dir/geometry/VdbLevelSet_Conversion.cpp.o CMakeFiles/zpctool.dir/geometry/VdbSampler.cpp.o CMakeFiles/zpctool.dir/simulation/init/Scene.cpp.o
-/usr/bin/ranlib libzpctool.a
